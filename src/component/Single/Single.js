@@ -12,7 +12,7 @@ const Single = (props) => {
             <img src={img} alt="" className="pt-4" />
             <h3 className="text-center text-light">Name : {name}</h3>
             <h5 className="text-center text-light">Prime Minister : {primeMinister}</h5>
-            <p className="text-center text-light">Population : {population}</p>
+            <p className="text-center text-light">Population : {population} m</p>
             <h5 className="text-center text-light">President : {president}</h5>
             <h6 className="text-center text-light">Capital : {capital}</h6>
             <button

@@ -13,10 +13,10 @@ const Cart = (props) => {
     }
     return (
         <div className="cart rounded-3 ">
-            <h2 className="text-center text-white">Slected Country</h2>
+            <h2 className="text-center text-white">Selected Country</h2>
             <h5 className="text-left text-info">Select : <span className="text-white">{props.cart.length}</span></h5>
             <h5 className="text-left text-info">Total Country :<span className="text-white"> {total}</span></h5>
-            <h5 className="text-left text-info">Total Population :<span className="text-white"> {popu}</span></h5>
+            <h5 className="text-left text-info">Total Population :<span className="text-white"> {popu} m</span></h5>
         </div>
     );
 };
