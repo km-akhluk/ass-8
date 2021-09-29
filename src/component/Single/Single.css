@@ -1,0 +1,17 @@
+.single img{
+    margin-left: 40%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+width: 75px;
+}
+.single{
+  border: 5px solid rgb(255, 255, 255);
+  padding: 0;
+  border-radius: 5px;
+}
+
+.button{
+  margin-left: 100px;
+  margin-bottom: 20px;
+
+}
